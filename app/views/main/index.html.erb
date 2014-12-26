@@ -1,0 +1,39 @@
+<% @container_style = :full %>
+
+<%# BEGIN JUMBOTRON %>
+<div class="jumbotron text-center">
+  <div class="container">
+    <h1>Delivering happiness.</h1>
+    <p>URBO provides safe and reliable medical marijuana delivery in the San Francisco Bay Area.</p>
+    <p>
+      <%= link_to("Become a Member", new_user_registration_path , :class => "btn btn-success btn-outline btn-pill btn-lg register-btn") %>
+      <%= link_to("Learn More", "#", :class => "btn btn-default btn-outline btn-pill btn-lg") %>
+    </p>
+  </div>
+</div>
+<%# END JUMBOTRON %>
+
+<%# BEGIN FEATURE BLOCKS %>
+<div class="feature-blocks">
+  <div class="container">
+
+    <div class="feature-block">
+      <div class="feature-block-icon">
+        <%= iconic('flash') %>
+      </div>
+      <h3>Delivered in a Flash</h3>
+      <p>Deliveries are quick, discreet and best of all, you don't even need to leave home!</p>
+      <p>Check our <%= link_to("delivery hours", "#") %>.</p>
+    </div>
+
+    <div class="feature-block">
+      <div class="feature-block-icon">
+        <%= iconic('circle-check') %>
+      </div>
+      <h3>Quality Guaranteed</h3>
+      <p>We stand behind our products and always guarantee the quality and quantity of your delivery.</p>
+    </div>
+
+  </div> <%# END .container %>
+</div>
+<%# END FEATURE BLOCKS %>

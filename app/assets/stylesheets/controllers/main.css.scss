@@ -1,0 +1,12 @@
+.main {
+  &.index {
+    .feature-blocks {
+      .feature-block {
+        @include make-lg-column(4);
+        @include make-md-column(4);
+        @include make-sm-column(4);
+        text-align: center;
+      }
+    }
+  }
+}

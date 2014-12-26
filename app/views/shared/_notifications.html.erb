@@ -1,0 +1,9 @@
+<% if alert %>
+  <script type="text/javascript">
+    toastr.error("<%= alert %>");
+  </script>
+<% elsif notice %>
+  <script type="text/javascript">
+    toastr.info("<%= notice %>");
+  </script>
+<% end %>

@@ -1,0 +1,9 @@
+{
+  "name": "dsl-generated dependencies",
+  "dependencies": {
+    "flux": "latest",
+    "waypoints": "latest",
+    "toastr": "latest",
+    "jquery-readyselector": "latest"
+  }
+}

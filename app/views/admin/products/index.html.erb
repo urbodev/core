@@ -1,0 +1,23 @@
+<div class="page-header">
+  <h1>Products</h1>
+</div>
+
+<% if @products.empty? %>
+
+  <p class="lead">No products yet! <%= link_to "Create one now.", new_admin_product_path %></p>
+
+<% else %>
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Product</th>
+        <th>Active</th>
+      </tr>
+    </thead>
+    <tbody>
+      <%= render @products %>
+    </tbody>
+  </table>
+
+<% end %>

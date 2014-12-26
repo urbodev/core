@@ -1,0 +1,6 @@
+@mixin make-column($lg-cols, $md-cols, $sm-cols, $xs-cols) {
+  @include make-lg-column($lg-cols);
+  @include make-md-column($md-cols);
+  @include make-sm-column($sm-cols);
+  @include make-xs-column($xs-cols);
+}

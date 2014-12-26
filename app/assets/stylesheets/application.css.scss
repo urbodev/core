@@ -1,0 +1,19 @@
+@import "variables";
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+@import "toastr/toastr.scss";
+
+// Mixins
+@import "mixins/**/*";
+
+// Global styles
+@import "styles/layouts";
+@import "styles/buttons";
+@import "styles/icons";
+@import "styles/navbar";
+@import "styles/registration_wizard";
+
+// Controller-specific stylesheets
+@import "controllers/main";

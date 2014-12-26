@@ -1,0 +1,6 @@
+<%= form_for @product, url: admin_products_path, layout: :basic do |f| %>
+  <%= f.text_field :name %>
+  <%= f.select :product_type, ProductType.all.collect{|t| [t.display_name, t.id] } %>
+  <%= f.text_area :description %>
+  <%= f.submit "Save Product" %>
+<% end %>

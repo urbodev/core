@@ -1,0 +1,19 @@
+<div class="navbar navbar-inverse navbar-static-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <%= link_to("URBO Office", admin_path, :class => 'navbar-brand') %>
+    </div>
+
+    <div class="collapse navbar-collapse">
+      <div class="navbar-right">
+        <ul class="nav navbar-nav">
+          <li><%= link_to("Dashboard", admin_path) %></li>
+          <li><%= link_to("Main Site", root_path) %></li>
+          <li><%= link_to("Profile", "#") %></li>
+          <li><%= link_to("Sign Out", destroy_user_session_path, method: :delete) %></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>

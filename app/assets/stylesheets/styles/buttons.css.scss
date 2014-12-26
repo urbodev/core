@@ -1,0 +1,47 @@
+// Pill Button
+.btn-pill {
+  border-radius: 50px;
+}
+
+// Outline Buttons
+.btn-outline {
+  background-color: transparent;
+  color: inherit;
+  transition: all .5s;
+}
+.btn-white.btn-outline {
+  color: $white;
+  &:hover {
+    color: $gray-light;
+  }
+}
+.btn-primary.btn-outline {
+  color: $brand-primary;
+  &:hover {
+    color: $white;
+  }
+}
+.btn-success.btn-outline {
+  color: $brand-success;
+  &:hover {
+    color: $white;
+  }
+}
+.btn-info.btn-outline {
+  color: $brand-info;
+  &:hover {
+    color: $white;
+  }
+}
+.btn-warning.btn-outline {
+  color: $brand-warning;
+  &:hover {
+    color: $white;
+  }
+}
+.btn-danger.btn-outline {
+  color: $brand-danger;
+  &:hover {
+    color: $white;
+  }
+}
